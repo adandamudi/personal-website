@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">AD</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ol class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <!-- <li class="nav__item"><a href="#research" class="nav__link">Research</a></li> -->
+                        <!-- <li class="nav__item"><a href="#teaching" class="nav__link">Teaching</a></li> -->
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    </ol>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hey,<br>I'm <span class="home__title-color">Anusha</span><br></h1>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/anusha-dandamudi" class="home__social-icon">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://github.com/adandamudi" class="home__social-icon">
+                        <i class='bx bxl-github' ></i>
+                    </a>
+                    <a href="assets/pdf/adandamudi-resumefa20.pdf" class="home__social-icon">
+                        <i class='bx bxs-book-bookmark' ></i>
+                    </a>
+                </div>
+
+                <div class="home__img">    
+                    <img src="assets/img/anusha.png" alt="">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/campanile.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <!-- <h2 class="about__subtitle">Hey, I'm Anusha</h2> -->
+                        <p class="about__text">Computer science student and researcher by day, photography and gardening enthusiast always <br><br>
+                        
+                        I'm currently an M.S. student at UC Berkeley studying computer science. I graduated from Cal with a B.A. in CS and Statistics in 2019.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+                <section class="timeline">
+                  <div class="container">
+                    <div class="timeline-item">
+                      <div class="timeline-img"></div>
+                      <div class="timeline-content timeline-card">
+                        <div class="timeline-img-header timeline-img-header1">
+                        </div>
+                        <div class="date">JAN 2020 - AUG 2020</div>
+                        <p>
+                            <ul>
+                                <li> Improved user experience when importing data for previewing Hive tables with thousands of partitions by decreasing load times by up to ~50%</li>
+                                <li>Wrote test framework and integration tests for ensuring data integrity during ingestion to the webapp from a variety of database vendors</li>
+                            </ul>
+                        </p>
+                      </div>
+                    </div>  
+
+
+                    <div class="timeline-item">
+                      <div class="timeline-img"></div>
+                      <div class="timeline-content timeline-card">
+                        <div class="timeline-img-header timeline-img-header2">
+                        </div>
+                        <div class="date">JAN 2019 - PRESENT</div>
+                        <p>
+                            Helped decrease latency in a Python system that manages the workflow development phase of the ML lifecycle by reducing volume of data logged by solely capturing non-deterministic behavior
+                        </p>
+                      </div>
+                    </div>  
+                    
+
+                    <div class="timeline-item">
+                      <div class="timeline-img"></div>
+                      <div class="timeline-content timeline-card">
+                        <div class="timeline-img-header timeline-img-header3">
+                        </div>
+                        <div class="date">MAY 2017 - AUG 2017</div>
+                        <p>
+                            <ul>
+                                <li> 
+                                    Increased flexibility of the company interviewing pipeline by enhancing a webapp used by employees when signing up to interview candidates — specifically by adding superuser functionality and ability to transfer responsibility
+                                </li>
+                                <li>
+                                    Improved employee productivity by helping develop a chatbot to facilitate Employee Services tasks
+                                </li>
+                            </ul>
+                        </p>
+                      </div>
+                    </div>   
+
+                  </div>
+                </section>
+            </section>   
+
+            <!-- ===== SKILLS ===== -->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">Java</span>
+                            </div>
+                            <div class="skills__bar skills__java">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">Python</span>
+                            </div>
+                            <div class="skills__bar skills__python">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">C</span>
+                            </div>
+                            <div class="skills__bar skills__c">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">HTML</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">CSS</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">Javascipt</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">SQL</span>
+                            </div>
+                            <div class="skills__bar skills__sql">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">Git</span>
+                            </div>
+                            <div class="skills__bar skills__git">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">Unix</span>
+                            </div>
+                            <div class="skills__bar skills__unix">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">Pytorch</span>
+                            </div>
+                            <div class="skills__bar skills__pytorch">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">40%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">Hadoop</span>
+                            </div>
+                            <div class="skills__bar skills__hadoop">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">50%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">Spring Boot</span>
+                            </div>
+                            <div class="skills__bar skills__spring">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">50%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer"></footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
+
+<!-- Sources:
+This website is based on the template/design of the websites below.
+https://github.com/bedimcode/portfolio-responsive-complete
+https://codepen.io/savalazic/pen/QKwERN/ -->
